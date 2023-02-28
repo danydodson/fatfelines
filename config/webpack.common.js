@@ -28,8 +28,7 @@ module.exports = {
     extensions: ['*', '.js', '.jsx', '.json']
   },
   output: {
-    path: path.resolve(__dirname, '../dist'),
-    publicPath: path.resolve(__dirname, '../public'),
+    path: path.resolve(__dirname, '../build'),
   },
   plugins: [
     new MiniCssExtractPlugin({

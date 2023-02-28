@@ -1,6 +1,6 @@
-dist
 .DS_Store
 .vscode
 *.env
 *.log
 node_modules
+build
