@@ -1,10 +1,9 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import './styles/globals.css'
-import App from './App'
-import vitals from './utils/vitals'
-import * as serviceWorker from './service-worker-reg'
+import './styles/global.css'
+import App from './app'
+
 
 const root = createRoot(document.getElementById('root'))
 
@@ -17,7 +16,3 @@ root.render(
     </Router>
   </React.StrictMode>
 )
-
-serviceWorker.register()
-
-vitals(console.log)

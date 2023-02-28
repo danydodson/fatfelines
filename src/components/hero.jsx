@@ -1,7 +1,7 @@
 import React from 'react'
 import Welcome from './welcome'
 import hero from '../assets/banner.png'
-import vhs from '../assets/vhs.min.svg'
+import vhs from '../assets/vhs.svg'
 
 const Hero = () => {
   return (

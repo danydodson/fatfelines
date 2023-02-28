@@ -4,39 +4,12 @@
   "name": "Fat Cats",
   "short_name": "FatCats",
   "description": "Find the fattest cat at VHS",
-  "categories": ["productivity", "utilities"],
   "display": "standalone",
   "orientation": "portrait-primary",
   "theme_color": "#000000",
   "background_color": "#ffffff",
   "dir": "ltr",
   "lang": "en-US",
-  "shortcuts": [
-    {
-      "name": "Start in dark mode",
-      "short_name": "Dark mode",
-      "description": "Start app in dark mode",
-      "url": "/?source=pwa&mode=night",
-      "icons": [
-        {
-          "src": "logo.svg",
-          "sizes": "150x150"
-        }
-      ]
-    },
-    {
-      "name": "Start in light mode",
-      "short_name": "Light mode",
-      "description": "Start app Edit in light mode",
-      "url": "/?source=pwa&mode=day",
-      "icons": [
-        {
-          "src": "logo.svg",
-          "sizes": "150x150"
-        }
-      ]
-    }
-  ],
   "screenshots": [
     {
       "src": "screens/desktop_1.png",
@@ -90,7 +63,7 @@
       "sizes": "384x384"
     },
     {
-      "src": "/avicons/logo_512.png",
+      "src": "favicons/logo_512.png",
       "type": "image/png",
       "sizes": "512x512"
     },

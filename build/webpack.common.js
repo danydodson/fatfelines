@@ -5,8 +5,9 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 module.exports = {
   entry: path.join(__dirname, '../src/index.jsx'),
   output: {
-    path: path.join(__dirname, '../build'),
-    filename: '[name].[contenthash:6].js'
+    path: path.join(__dirname, '../dist'),
+    filename: '[name].[contenthash:6].js',
+    publicPath: 'auto',
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json']
@@ -14,7 +15,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /.(js|jsx)$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -28,7 +29,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(jpg|png|gif|svg)$/,
+        test: /\.(jpg|png|gif|svg|ico)$/,
         use: {
           loader: 'url-loader',
         },
@@ -43,9 +44,5 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.join(__dirname, '../src/index.html')
     })
-  ],
-  performance: {
-    maxEntrypointSize: 512000,
-    maxAssetSize: 512000
-  },
+  ]
 }
