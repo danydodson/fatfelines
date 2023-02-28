@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, '../dist'),
     filename: '[name].[contenthash:6].js',
-    publicPath: 'auto',
+    publicPath: 'public',
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json']
