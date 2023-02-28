@@ -1,7 +1,7 @@
 ## SPA-FROM-SCRATCH
 
 This is a guideline to build an modern SPA project using React framework step by step.
-
+ 
 We use following framework and packages:
 
 - UI Framework - [React](https://reactjs.org/)
