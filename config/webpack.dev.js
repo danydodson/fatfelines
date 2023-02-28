@@ -15,7 +15,6 @@ module.exports = merge(common, {
       directory: path.join(__dirname, '../public'),
     },
     client: {
-      // logging: 'none',
       overlay: true,
       progress: true,
     },

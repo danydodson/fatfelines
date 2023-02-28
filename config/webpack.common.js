@@ -43,5 +43,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.join(__dirname, '../src/index.html')
     })
-  ]
+  ],
+  performance: {
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
+  },
 }
