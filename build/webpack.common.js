@@ -29,7 +29,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, '../dist'),
-    // publicPath: path.resolve(__dirname, '../public'),
+    publicPath: path.resolve(__dirname, '../public'),
   },
   plugins: [
     new MiniCssExtractPlugin({
