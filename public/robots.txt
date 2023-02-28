@@ -1,0 +1,3 @@
+# https://fatfelines.com/robots.txt
+User-agent: *
+Disallow:
