@@ -24,7 +24,6 @@ const useAxios = axiosParams => {
 
   useEffect(() => {
     fetchData(axiosParams)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return { response, loading, error }

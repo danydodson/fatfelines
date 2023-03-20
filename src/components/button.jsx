@@ -16,7 +16,7 @@ const Button = ({ children, variant, focused = false }) => {
     }
   }, [focused, variant])
 
-  return <button className={`hover:text-neutral-800 whitespace-nowrap ${style}`}>{children}</button>
+  return <button type='button' className={`hover:text-neutral-800 whitespace-nowrap ${style}`}>{children}</button>
 }
 
 export default Button

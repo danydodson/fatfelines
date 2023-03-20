@@ -8,7 +8,7 @@ module.exports = {
     require('tailwind-scrollbar-hide')
   ],
   content: [
-    './index.html',
+    './public/index.html',
     './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {

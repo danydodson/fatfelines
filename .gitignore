@@ -1,6 +1,4 @@
-.DS_Store
-.vscode
-*.env
-*.log
-node_modules
 build
+node_modules
+.DS_Store
+*.env
