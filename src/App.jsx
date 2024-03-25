@@ -6,15 +6,15 @@ import Hero from './components/hero'
 import Main from './components/main'
 
 const App = () => {
-  return (
-    <Layout>
-      <Header />
-      <Main>
-        <Hero />
-        <Collection />
-      </Main>
-    </Layout>
-  )
+    return (
+        <Layout>
+            <Header />
+            <Main>
+                <Hero />
+                <Collection />
+            </Main>
+        </Layout>
+    )
 }
 
 export default App

@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
 // const proxy = 'https://cors-through.herokuapp.com/'
-const proxy = 'https://cors-anywhere.herokuapp.com/'
+const proxy = 'https://cors-through-c6963a907c2c.herokuapp.com/'
+// const proxy = 'https://cors-anywhere.herokuapp.com/'
 const url = 'https://www.shelterluv.com/api/v3/available-animals/11886?species=Cat'
 
 axios.defaults.baseURL = proxy + url
