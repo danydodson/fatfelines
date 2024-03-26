@@ -5,7 +5,6 @@
     "author": "danydodson",
     "repository": "github:danydodson/fatfelines",
     "private": true,
-    "type": "module",
     "main": "index.js",
     "scripts": {
         "start": "nodemon --watch build --exec \"webpack-dev-server --config config/webpack.dev.js\"",
