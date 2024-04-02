@@ -23,7 +23,7 @@
 .modal-enter-done {
     opacity: 1;
     pointer-events: auto;
-    transform: scale(1);
+    transform: scale(0.8);
 }
 
 .modal-exit {

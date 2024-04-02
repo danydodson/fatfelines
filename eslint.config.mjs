@@ -55,6 +55,7 @@ export default [
 			'no-console': 0,
 			'react/prop-types': 0,
 			'react/button-has-type': 0,
+			'react/no-find-dom-node': 0,
 			// 'jsx-quotes': 1,
 			'import/no-unresolved': 0,
 			'import/namespace': 0,
