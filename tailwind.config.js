@@ -3,7 +3,7 @@
 import tailwindcss from 'tailwindcss'
 import autoprefixer from 'autoprefixer'
 import tailwindScrollbar from 'tailwind-scrollbar'
-import tailwindScrollbarHide from 'tailwind-scrollbar-hide'
+import scrollbarHide from 'tailwind-scrollbar-hide'
 
 export default {
     content: [
@@ -14,7 +14,7 @@ export default {
         tailwindcss('./tailwind.config.js'),
         autoprefixer,
         tailwindScrollbar,
-        tailwindScrollbarHide,
+        scrollbarHide,
     ],
     theme: {
         extend: {}
