@@ -3,30 +3,30 @@
 @tailwind utilities;
 
 .lazy-load-image-background.blur {
-    filter: blur(15px);
+  filter: blur(15px);
 }
 
 .lazy-load-image-background.blur.lazy-load-image-loaded {
-    filter: blur(0);
-    transition: filter 0.3s;
+  filter: blur(0);
+  transition: filter 0.3s;
 }
 
 .lazy-load-image-background.blur > img {
-    opacity: 0;
+  opacity: 0;
 }
 
 .lazy-load-image-background.blur.lazy-load-image-loaded > img {
-    opacity: 1;
-    transition: opacity 0.3s;
+  opacity: 1;
+  transition: opacity 0.3s;
 }
 
 .modal-enter-done {
-    opacity: 1;
-    pointer-events: auto;
-    transform: scale(0.8);
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(0.8);
 }
 
 .modal-exit {
-    opacity: 0;
-    transform: scale(0.4);
+  opacity: 0;
+  transform: scale(0.4);
 }

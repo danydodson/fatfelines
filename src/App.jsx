@@ -1,20 +1,19 @@
-import React from 'react'
-import Collection from './components/collection'
-import Header from './components/header'
-import Layout from './components/layout'
-import Hero from './components/hero'
-import Main from './components/main'
+import Collection from './components/Collection'
+import Header from './components/Header'
+import Layout from './components/Layout'
+import Hero from './components/Hero'
+import Main from './components/Main'
 
 const App = () => {
-    return (
-        <Layout>
-            <Header />
-            <Main>
-                <Hero />
-                <Collection />
-            </Main>
-        </Layout>
-    )
+  return (
+    <Layout>
+      <Header />
+      <Main>
+        <Hero />
+        <Collection />
+      </Main>
+    </Layout>
+  )
 }
 
 export default App

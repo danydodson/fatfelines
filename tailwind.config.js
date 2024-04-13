@@ -1,15 +1,20 @@
-const tailwindcss = require('tailwindcss')
+/** @type {import('tailwindcss').Config} */
 
-module.exports = {
+import tailwindcss from 'tailwindcss'
+import autoprefixer from 'autoprefixer'
+import tailwindScrollbar from 'tailwind-scrollbar'
+import tailwindScrollbarHide from 'tailwind-scrollbar-hide'
+
+export default {
+    content: [
+        './index.html',
+        './src/**/*.{js,ts,jsx,tsx}'
+    ],
     plugins: [
         tailwindcss('./tailwind.config.js'),
-        require('autoprefixer'),
-        require('tailwind-scrollbar'),
-        require('tailwind-scrollbar-hide')
-    ],
-    content: [
-        './public/index.html',
-        './src/**/*.{js,ts,jsx,tsx}'
+        autoprefixer,
+        tailwindScrollbar,
+        tailwindScrollbarHide,
     ],
     theme: {
         extend: {}

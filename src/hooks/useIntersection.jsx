@@ -1,7 +1,8 @@
-import React,{ useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 const useIntersection = (element, rootMargin) => {
 	const [isVisible, setState] = useState(false)
+	const el = element.current
 
 	useEffect(() => {
 		const observer = new IntersectionObserver(
@@ -17,8 +18,9 @@ const useIntersection = (element, rootMargin) => {
 		element.current && observer.observe(element.current)
 
 		return () => {
-			observer.unobserve(element.current)
+			observer.unobserve(el)
 		}
+		// eslint-disable-next-line
 	}, [])
 
 	return isVisible
