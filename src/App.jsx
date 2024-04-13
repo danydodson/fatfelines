@@ -1,4 +1,4 @@
-import Collection from './components/Collection'
+import Collection from './components/Collection.jsx'
 import Header from './components/Header'
 import Layout from './components/Layout'
 import Hero from './components/Hero'
