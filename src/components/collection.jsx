@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import useAxios from '../hooks/useAxios'
 import refiner from '../utils/refiner'
-import Spinner from './Spinner'
-import Card from './Card'
+import Spinner from './Spinner.jsx'
+import Card from './Card.jsx'
 
 const Collection = () => {
   const { response, loading, error } = useAxios({ method: 'get' })

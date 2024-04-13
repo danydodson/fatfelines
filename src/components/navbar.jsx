@@ -2,9 +2,9 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Link } from 'react-router-dom'
 import { Icon } from '../icons'
-import Button from './Button'
-import Divider from './Divider'
-import Search from './Search'
+import Button from './Button.jsx'
+import Divider from './Divider.jsx'
+import Search from './Search.jsx'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')

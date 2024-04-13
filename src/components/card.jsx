@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css'
 import { Icon } from '../icons'
-import Profile from './Profile'
-import Modal from './Modal'
+import Profile from './Profile.jsx'
+import Modal from './Modal.jsx'
 
 const breakpoint = 640
 

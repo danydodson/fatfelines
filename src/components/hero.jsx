@@ -1,4 +1,4 @@
-import Welcome from './Welcome'
+import Welcome from './Welcome.jsx'
 import hero from '../assets/banner.png'
 import vhs from '../assets/vhs.svg'
 
